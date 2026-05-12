@@ -1,10 +1,12 @@
 {
-  "youtube": "gemma4:e4b-it-q8_0",
-  "instagram": "gemma4:e4b-it-q8_0",
-  "designer": "gemma4:e4b-it-q8_0",
-  "business": "gemma4:e4b-it-q8_0",
-  "secretary": "gemma4:e4b-it-q8_0",
-  "editor": "gemma4:e4b-it-q8_0",
-  "writer": "gemma4:e4b-it-q8_0",
-  "researcher": "gemma4:e4b-it-q8_0"
+  "ceo": "qwen3.6:27b",
+  "youtube": "qwen3:8b",
+  "instagram": "qwen3:8b",
+  "designer": "llama3.2-vision:latest",
+  "developer": "qwen3.6:35b-a3b",
+  "business": "qwen3:8b",
+  "secretary": "qwen3:8b",
+  "editor": "qwen3:8b",
+  "writer": "qwen3:8b",
+  "researcher": "qwen3:8b"
 }

@@ -16,5 +16,15 @@
   "designer": {
     "activatedAt": "2026-05-11T07:05:08.651Z",
     "seeded": true
+  },
+  "developer": {
+    "activatedAt": "2026-05-12T06:05:15.683Z"
+  },
+  "_coder_recommended": true,
+  "business": {
+    "activatedAt": "2026-05-12T09:16:52.609Z"
+  },
+  "researcher": {
+    "activatedAt": "2026-05-12T09:17:00.879Z"
   }
 }

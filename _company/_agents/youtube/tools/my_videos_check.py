@@ -12,6 +12,11 @@ from collections import Counter
 # v2.89.49 — DeprecationWarning(utcnow 등) 노이즈 제거. 사용자 채팅창 출력에 끼면 못생김.
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
+# 윈도우 환경(cp949)에서 이모지 출력 시 UnicodeEncodeError 방지
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
 HERE = os.path.dirname(os.path.abspath(__file__))
 ACCOUNT = os.path.join(HERE, "youtube_account.json")
 CONFIG  = os.path.join(HERE, "my_videos_check.json")
