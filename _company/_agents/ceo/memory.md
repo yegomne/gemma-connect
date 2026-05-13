@@ -16,3 +16,4 @@ _CEO 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 
 - [2026-05-13] 결과가 달러로 나왔는데  CEO 기억해. 난 대한민국에서 일을 하고 있고 한국사람이야.   그 것을 기초로 다시 생성해줘 → 보고서 sessions/2026-05-13T05-41/_report.md
 - [2026-05-13] ceo!!! 한국에서 지금 초이스할수 있는 판매 아이템 을 찾아봐. 물론 도매매에서 매입할꺼야. 5개만 찾아 → 보고서 sessions/2026-05-13T06-57/_report.md
 - [2026-05-13] ceo!!! 한국에서 지금 초이스할수 있는 판매 아이템 을 찾아봐. 물론 도매매에서 매입할꺼야. 5개만 찾아 → 보고서 sessions/2026-05-13T06-41/_report.md
+- [2026-05-13] ⚠️ CEO 호출 실패: timeout of 300000ms exceeded [stack] AxiosError: timeout of 300000ms exceeded | 	at RedirectableRequest.handleRequestTimeout (c:\Users\User\.antigravity\extensions\connectailab.connect-ai-lab-2.89.157-universal\out\extension.js:13481:11) | 	at RedirectableRequest.emit (node:events:519:
