@@ -26,5 +26,10 @@
   },
   "researcher": {
     "activatedAt": "2026-05-12T09:17:00.879Z"
-  }
+  },
+  "instagram": {
+    "activatedAt": "2026-05-13T03:51:54.209Z",
+    "seeded_v3": true
+  },
+  "_migrated_v3": true
 }
