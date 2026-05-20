@@ -1,12 +1,11 @@
 {
-  "ceo": "qwen3.6:27b",
+  "ceo": "qwen3.6:35b-a3b",
   "youtube": "qwen3:8b",
   "instagram": "qwen3:8b",
   "designer": "llama3.2-vision:latest",
-  "developer": "qwen3.6:35b-a3b",
-  "business": "qwen3:8b",
-  "secretary": "qwen3:8b",
+  "business": "qwen3.6:27b",
+  "secretary": "gemma4:e4b",
   "editor": "qwen3:8b",
-  "writer": "qwen3:8b",
+  "writer": "qwen3.6:27b",
   "researcher": "qwen3:8b"
 }
