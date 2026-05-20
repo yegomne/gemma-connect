@@ -1,5 +1,6 @@
 {
     "connectAiLab.ollamaUrl": "http://127.0.0.1:11434",
     "connectAiLab.streamFirstTokenTimeoutSec": 600,
+    "connectAiLab.requestTimeout": 1800,
     "connectAiLab.contextLength": 8192
 }

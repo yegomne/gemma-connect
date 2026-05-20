@@ -11,6 +11,11 @@ Requires:  pip install google-api-python-client requests
 """
 import os, json, time, random, datetime, sys
 
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(HERE, "trend_sniper.json")
 ACCOUNT_PATH = os.path.join(HERE, "youtube_account.json")
@@ -152,7 +157,7 @@ def main():
                     "stream": False,
                     "max_tokens": 2048,
                 },
-                timeout=180,
+                timeout=1800,
             )
             r.raise_for_status()
             report = r.json().get("choices", [{}])[0].get("message", {}).get("content", "").strip()
@@ -160,7 +165,7 @@ def main():
             r = requests.post(
                 f"{ollama_url}/api/generate",
                 json={"model": model, "prompt": prompt, "stream": False},
-                timeout=180,
+                timeout=1800,
             )
             r.raise_for_status()
             report = r.json().get("response", "").strip()
